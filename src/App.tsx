@@ -6,6 +6,7 @@ import { PersonList } from "./components/PersonList";
 import { Status } from "./components/Status";
 import { Heading } from "./components/Heading";
 import { Oscar } from "./components/Oscar";
+import { Button } from "./components/Button";
 
 function App() {
   const personName = {
@@ -23,6 +24,7 @@ function App() {
     <div className="App">
       <h1>React Typescript Demo</h1>
       <hr></hr>
+      <Button handleClick={() => console.log("Button Clicked")} />
     </div>
   );
 }
