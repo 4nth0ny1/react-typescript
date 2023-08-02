@@ -23,14 +23,6 @@ function App() {
     <div className="App">
       <h1>React Typescript Demo</h1>
       <hr></hr>
-      <Oscar>
-        <Heading>Oscar goes to Dicaprio!</Heading>
-      </Oscar>
-      <Heading>Temporary Heading</Heading>
-      <Greet name="Anthony" isLoggedIn={false} />
-      <Person name={personName} />
-      <PersonList names={nameList} />
-      <Status status="loading" />
     </div>
   );
 }
