@@ -24,7 +24,9 @@ function App() {
     <div className="App">
       <h1>React Typescript Demo</h1>
       <hr></hr>
-      <Button handleClick={() => console.log("Button Clicked")} />
+      <Button
+        handleClick={(event, id) => console.log("Button Clicked", event, id)}
+      />
     </div>
   );
 }
