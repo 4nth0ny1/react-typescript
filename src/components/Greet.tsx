@@ -1,6 +1,6 @@
 type GreetProps = {
   name: string;
-  messageCount: number;
+  messageCount?: number; // made optional with the ?
   isLoggedIn: boolean;
 };
 
